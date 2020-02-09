@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-Do list App</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- javascript -->
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <!-- card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/mountain.jpg" class="responsive-image flow-text" height="200">
+                            <!-- date -->
+                            <div class="row">
+                                <div class="col s12 m12 l12">
+                            <div id="date" style="text-align:center"></div>
+                            <div class="col s12 m12 l12">
+                            <div id="clock"></div>
+                            </div>
+                            </div>
+                            </div>
+                            <!-- search input -->
+                            <form id="search-books" class="search-books">
+                                <input type="text" placeholder="Search">
+                                </form>
+                            </div>
+                        </div>
+                        <!-- card content -->
+                        <div class="card-content">
+
+                            <div id="book-list">
+                                <h4 class="title center-align">Add a List</h4>
+                            <ul >
+
+
+                                <li>
+                                    <span class="name">Emergence</span>
+                                    <button class="delete">Delete</button>
+                                </li>
+
+                                <li>
+                                    <span class="name">Blacklist</span>
+                                    <button class="delete">Delete</button>
+                                </li>
+
+                                <li>
+                                    <span class="name">Enemies Within</span>
+                                    <button class="delete">Delete</button>
+                                </li>
+
+                                <li>
+                                    <span class="name">BlindSpot</span>
+                                    <button class="delete">Delete</button>
+                                </li>
+
+                                <li>
+                                    <span class="name">The Lastship</span>
+                                    <button class="delete">Delete</button>
+                                </li>
+                            </ul>
+                            </div>
+                        </div>
+                        <form action="#" class="center-align" id="add-books">
+                        <p>
+                            <label>
+                                <input type="checkbox" checked="checked" id="hide"/>
+                                <span>Hide All Books</span>
+                            </label>
+                        </p>
+                        <!-- add book -->
+                        <input type="text" placeholder="Add Movies">
+                        <button class="center-align">Add</button>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+
+           
+              </body>
+</html>

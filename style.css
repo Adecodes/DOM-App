@@ -1,0 +1,45 @@
+ #book-list li{
+     margin-top:10px;
+     padding:15px;
+     border-left:3px solid #fb8c00;
+     
+ }
+ .title{
+     padding:10px;
+ }
+ .delete{
+     float:right;
+ }
+
+ #book-list li:hover{
+     border-left:3px solid #e65100; ;
+ }
+
+ button{
+     padding:5px;
+     border:none;
+     background:#fb8c00;
+     color:#fff;
+     border-radius:6px;
+ }
+ button:hover{
+background:#e65100;
+ }
+ #add-books , #search-books{
+     width:70%;
+     margin:0 auto;
+ }
+ #date{
+     position: absolute;
+     top:70px;
+     left:30%;
+     color:#fff;
+     font-size:30px;
+ }
+ #clock{
+     position: absolute;
+      top:120px;
+     left:33%;
+     color:#fff;
+     font-size:30px;
+ }
